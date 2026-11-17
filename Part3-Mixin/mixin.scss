@@ -1,0 +1,59 @@
+
+@mixin btn {
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 8px;
+
+    font : {
+        size: 16px;
+        weight: 700;
+    }
+}
+
+@mixin flex-position($justify-content, $align-items,$flex-direction) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $flex-direction
+}
+
+.wrapper {
+    @include flex-position(center, center, row);
+
+}
+
+.btn {
+    @include btn();
+}
+
+.btn-success {
+    background-color: green;
+}
+
+.btn-info {
+    background-color: blue;
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+.btn-alert {
+    background-color: orange;
+}
+
+.btn-small {
+    font-size: 14px;
+}
+
+.btn-medium {
+    font-size: 18px;
+}
+
+.btn-large {
+    font-size: 24px;
+}
+
+.btn-xlarge {
+    font-size: 32px;
+}

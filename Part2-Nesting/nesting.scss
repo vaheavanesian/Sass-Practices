@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #efefef;
+  height: 50px;
+  padding: 0 16px;
+
+  &__list {
+    display: flex; // cleaner than inline-block for a navbar
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    margin-inline-start: 16px; // logical property, respects RTL automatically
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+    line-height: 50px;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

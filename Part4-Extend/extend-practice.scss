@@ -1,0 +1,23 @@
+.button {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+.button-report {
+    @extend .button;
+    background-color: green;
+    color: #fff;
+}
+
+.button-submit {
+    @extend .button;
+    background-color: red;
+    color: #fff;
+}
+

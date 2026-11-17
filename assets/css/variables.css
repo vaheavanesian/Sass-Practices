@@ -1,0 +1,25 @@
+body {
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mydiv {
+  height: 500px;
+  width: 720px;
+  background-color: #efefef;
+  margin: 150px auto;
+  border: 8px solid #428DED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #428DED;
+  font-family: serif;
+  font-size: 32px;
+  font-weight: bold;
+}/*# sourceMappingURL=variables.css.map */

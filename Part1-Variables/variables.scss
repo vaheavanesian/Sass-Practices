@@ -1,0 +1,33 @@
+$color: #428DED; 
+$bg-color: #efefef;
+$font-size: 32px;
+$font-family: serif;
+$height: 500px;
+$width: 720px;
+$font-wieght: bold;
+
+body {
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mydiv {
+    height: $height;
+    width: $width;
+    background-color: $bg-color;
+    margin: 150px auto;
+    border: 8px solid $color;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: $color;
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-wieght;
+}

@@ -1,0 +1,37 @@
+%btn-default {
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 8px;
+
+    font : {
+        size: 16px;
+        weight: 700;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-success {
+    @extend %btn-default;
+    background-color: green;
+}
+
+.btn-info {
+    @extend .btn;
+    background-color: blue;
+}
+
+.btn-danger {
+    @extend .btn;
+    background-color: red;
+}
+
+.btn-alert {
+    @extend .btn;
+    background-color: orange;
+}
